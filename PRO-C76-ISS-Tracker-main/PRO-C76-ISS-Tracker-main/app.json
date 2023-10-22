@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "C76_ISSTracker_TeacherReferenceCode",
+    "Slug": "C76_IssTracker_TeacherReferenceCode",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode":"conatin",
+      ":backgroundColor": "#ffffff"
+
+    },
+      "updates": {
+        "fallbackToCacheTimeout": 0
+      },
+      "assetBundlePatterns": [
+        "**/*"
+      ],
+      "ios": {
+        "supportsTablet":true
+      },
+      "android":{
+        "adaptiveIcone":{
+          "foregroundImage": "./assets/adaptive-icon.png",
+          "backgroundColor": "#FFFFFF"
+        }
+      },
+      "Web": {
+        "favicon": "./assets/favicon.png"
+      }
+  }
+}
